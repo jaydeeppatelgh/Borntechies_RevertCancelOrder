@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Borntechies_RevertCancelOrder::revertcancelorder" title="Revert Canceled Order" module="Borntechies_RevertCancelOrder" sortOrder="10" resource="Borntechies_RevertCancelOrder::menu"/>
+        <add id="Borntechies_RevertCancelOrder::revertcancelorderchild" title="Revert Canceled Order Status" module="Borntechies_RevertCancelOrder" sortOrder="0" parent="Borntechies_RevertCancelOrder::revertcancelorder"
+                action="revertcancelorder/Index" resource="Borntechies_RevertCancelOrder::revertcancelorderchild"/>
+    </menu>
+</config>
